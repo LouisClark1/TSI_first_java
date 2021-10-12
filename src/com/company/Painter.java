@@ -10,7 +10,7 @@ public class Painter {
         boolean valid_answer = false;
 
 
-        
+
         double ternary = (valid_answer) ? 1 : 2;
         System.out.println(ternary);
 
