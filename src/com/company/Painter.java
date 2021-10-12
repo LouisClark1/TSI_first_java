@@ -11,12 +11,23 @@ public class Painter {
 
 
         //code to test using the different logic layout. Prints a 2
-        double ternary = (valid_answer) ? 1 : 2;
-        System.out.println(ternary);
+        //double ternary = (valid_answer) ? 1 : 2;
+        //System.out.println(ternary);
 
+
+        //testing switch logic
+        int switch_input = 1;
+        switch (switch_input) {
+            case (1):
+                System.out.println("switch case was 1");
+                switch_input = 2;
+                //break;
+            case (2):
+                System.out.println("switch case was 2");
+                break;
+        }
         while (!valid_answer) {
             Scanner Question_know_area = new Scanner(System.in);  // Create a Scanner object
-            System.out.println("Github updated version");
             System.out.println("Do you know the area? answer Y or N");
             answer_known_area = Question_know_area.nextLine();  // Read user input
 
