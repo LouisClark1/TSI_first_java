@@ -11,6 +11,7 @@ public class Painter {
 
         while (!valid_answer) {
             Scanner Question_know_area = new Scanner(System.in);  // Create a Scanner object
+            System.out.println("Github updated version");
             System.out.println("Do you know the area? answer Y or N");
             answer_known_area = Question_know_area.nextLine();  // Read user input
 
