@@ -10,7 +10,7 @@ public class Painter {
         boolean valid_answer = false;
 
 
-
+        //code to test using the different logic layout. Prints a 2
         double ternary = (valid_answer) ? 1 : 2;
         System.out.println(ternary);
 
