@@ -9,6 +9,11 @@ public class Painter {
         double wall_width = 0;
         boolean valid_answer = false;
 
+
+        
+        double ternary = (valid_answer) ? 1 : 2;
+        System.out.println(ternary);
+
         while (!valid_answer) {
             Scanner Question_know_area = new Scanner(System.in);  // Create a Scanner object
             System.out.println("Github updated version");
