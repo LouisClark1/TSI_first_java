@@ -39,7 +39,7 @@ public class Arrays<i> {
         group_of_things.add("Louis3");
         group_of_things.add("Louis4");
         group_of_things.add(1,"Louis_different");
-        
+
         System.out.println(group_of_things);
         System.out.println("The index in the group of Louis is " + group_of_things.indexOf("Louis"));
 
