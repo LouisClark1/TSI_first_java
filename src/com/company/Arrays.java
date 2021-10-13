@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Arrays<i> {
     public static void main(String[] args) {
         int count = 0;
@@ -27,6 +30,20 @@ public class Arrays<i> {
         for (int L = 0 ; L < gridCounter.length ; L++){
             System.out.print(gridCounter[L][print_column - 1] + " ");
         }
+
+        List <String> group_of_things = new ArrayList<>();
+        System.out.println();
+        group_of_things.add("Louis");
+        group_of_things.add("Louis1");
+        group_of_things.add("Louis2");
+        group_of_things.add("Louis3");
+        group_of_things.add("Louis4");
+        group_of_things.add(1,"Louis_different");
+        
+        System.out.println(group_of_things);
+        System.out.println("The index in the group of Louis is " + group_of_things.indexOf("Louis"));
+
+
 
     }
 }
